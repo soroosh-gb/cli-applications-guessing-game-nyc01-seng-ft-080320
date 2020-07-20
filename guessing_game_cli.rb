@@ -14,8 +14,6 @@ def run_guessing_game
   else 
     puts = "Invalid input!"
   end 
-  # puts result
-  # binding.pry
 end 
  
 
