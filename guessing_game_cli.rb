@@ -1,20 +1,20 @@
 require 'pry'
 
 def run_guessing_game
-  result = ""
+  # result = ""
   user_input = gets.chomp.to_i 
   random_number = rand(6) + 1 
    
   if user_input == random_number
-    result = "You guessed the correct number!"
+    return = "You guessed the correct number!"
   elsif user_input != random_number && user_input != "exit"
-    result = "Sorry! The computer guessed #{random_number}."
+    return = "Sorry! The computer guessed #{random_number}."
   elsif user_input == "exit"
-    result = "Goodbye!"
+    puts = "Goodbye!"
   else 
-    result = "Invalid input!"
+    puts = "Invalid input!"
   end 
-  puts result
+  # puts result
   # binding.pry
 end 
  
