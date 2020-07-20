@@ -15,7 +15,7 @@ def run_guessing_game
     result = "Invalid input!"
   end 
   puts result
-  binding.pry
+  # binding.pry
 end 
  
 # def get_user_input()
